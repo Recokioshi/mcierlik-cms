@@ -7,9 +7,12 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "sts": "sts -c .stsconfig"
   },
   "dependencies": {
+    "@strapi/plugin-documentation": "^4.2.2",
+    "@strapi/plugin-graphql": "^4.2.2",
     "@strapi/plugin-i18n": "4.2.2",
     "@strapi/plugin-users-permissions": "4.2.2",
     "@strapi/strapi": "4.2.2",
@@ -26,5 +29,8 @@
     "node": "16.14.x",
     "npm": "8.3.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "strapi-to-typescript": "^2.0.15"
+  }
 }

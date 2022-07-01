@@ -16,4 +16,3 @@ module.exports = ({ env }) => ({
     debug: false,
   },
 });
-K;

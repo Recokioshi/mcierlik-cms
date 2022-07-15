@@ -12,27 +12,34 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Active": {
+    "isActive": {
       "type": "boolean"
     },
-    "SaleFrom": {
+    "saleFrom": {
       "type": "datetime"
     },
-    "Price": {
+    "price": {
       "type": "decimal"
     },
-    "Photo": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "shortDescription": {
+      "type": "string"
+    },
+    "fullDescription": {
+      "type": "text"
     }
   }
 }

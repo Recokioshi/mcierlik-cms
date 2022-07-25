@@ -13,16 +13,22 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "isActive": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true,
+      "required": true
     },
     "saleFrom": {
       "type": "datetime"
     },
     "price": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true,
+      "min": 0
     },
     "photo": {
       "type": "media",
@@ -36,10 +42,28 @@
       ]
     },
     "shortDescription": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "fullDescription": {
-      "type": "text"
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "type": "json"
+    },
+    "colors": {
+      "type": "json"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

@@ -35,5 +35,9 @@
   "license": "MIT",
   "devDependencies": {
     "strapi-to-typescript": "^2.0.15"
+  },
+  "resolutions": {
+    "@strapi/design-system": "^1.6.5",
+    "codemirror": "5.65.12"
   }
 }

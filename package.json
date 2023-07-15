@@ -19,7 +19,7 @@
     "@strapi/strapi": "4.6.0",
     "better-sqlite3": "8.0.1",
     "node-cmd": "^5.0.0",
-    "pg": "^8.7.3",
+    "pg": "^8.11.1",
     "pg-connection-string": "^2.5.0"
   },
   "author": {
@@ -29,8 +29,8 @@
     "uuid": "15cf97b5-def7-4061-86f8-8522f7c42279"
   },
   "engines": {
-    "node": "18.x.x",
-    "npm": "10.x.x"
+    "node": "16.16.0",
+    "npm": ">=6.0.0"
   },
   "license": "MIT",
   "devDependencies": {
